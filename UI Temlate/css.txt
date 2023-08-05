@@ -1,0 +1,10 @@
+- box-sizing * margin|padding * max-width * withd: auto|100% * height:vh|%|px
+
+- width: 100% vs auto
+
+- <li>Research.<span><i class="fas fa-trash-alt"></i></span></li>
+	VS in positioning
+- <li>Research.<span class="fas fa-trash-alt"></span></li>
+
+- flex
+- positioning

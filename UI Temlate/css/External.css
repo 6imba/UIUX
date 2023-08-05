@@ -1,0 +1,12 @@
+#first{
+        color:red;/*this is for id use #before id*/
+        }
+.cls{
+        text-align:right;/*this is for class use . before class*/
+        }
+h4,#grp,h5,.ass {
+                    color:green; /*this is for grouping */
+                    }
+body{
+                background-color:yellow;
+                }

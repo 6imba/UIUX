@@ -1,0 +1,84 @@
+color : rgb,name,hexa etc
+size: px, %
+lorem
+
+
+
+************************************************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+
+    </header>
+    <footer>
+        
+    </footer>
+</body>
+</html>
+
+************************************************
+border
+href_path
+position
+element_tag <-> color, font(style,size), background-color, 
+
+
+<body bgcolor=#7678s >
+<body background="bird.png" >
+<body style="background-color:#7678s" >
+bgcolor is a HTML attribute whereas background-color is a CSS property
+
+<header><footer>
+
+<table>
+    <thead><tr><th></th></tr></thead>
+    <tbody><tr><td></td></tr></tbody>
+    <tfoot><tr><td></td></tr></tfoot>
+</table>
+cellspacing, cellpadding, rowspan, colspan
+
+tag attributes <==> bgcolor, border, align,  height, width
+
+
+<form onsubmit="return validate()" method="POST" action=""></form>
+
+
+.class, #id
+border, height, width, padding, margin,
+
+
+Multimedia and path
+<a href="">  <==>  <a target="_self/_blank/_top">
+<img  src="">
+<embed src="">
+</bgsound>
+
+
+<header>
+<section>
+<nav>
+<footer>
+<i><b><u>
+<ol><ul><li><dl>,<dt>,<dd>
+<select><option><input type="radio">
+<label><input>
+<input type="submit" id="" class="" name="">
+<button type="reset/radio/submit/checkbox">
+<div><span>
+
+
+<strike><small><pre><center><address><address><strong><mark><em><sup><sub></code><tt><marquee>
+&nbsp; <==> <p> This&nbsp;sentences&nbsp;never&nbsp;gets&nbsp;seperated.</p>
+comment : <!-- -->
+
+
+<div align="right">
+
+
+

@@ -1,0 +1,39 @@
+The HTML element is everything from the start tag to the end tag:
+<tagname>Content goes here...</tagname>
+
+Nested HTML Elements
+HTML elements can be nested (this means that elements can contain other elements).
+
+HTML Attributes
+HTML attributes provide additional information about HTML elements.
+All HTML elements can have attributes
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+e.g : The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to.
+<a href="" target=""></a>
+<img src="" alt=""></img>
+href <==> Absolute URL & Relative URL ***************** # '/' -> root dir
+#other attributes : style="color:red;", lang="en-US", title="tooltip"
+<tagname style="property:value;">
+    <h1 style="background-color:red; width:50%; text-align:center;">Centered Heading</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+# css
+
+height, width, border, padding, margin, top/right/bottom/left, collapse, box-sizing: border-box;, auto/length/%
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, outline, borders, padding, and the actual content.
+
+
+

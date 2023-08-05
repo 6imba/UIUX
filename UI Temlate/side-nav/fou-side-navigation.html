@@ -1,0 +1,81 @@
+<div :class="[$style.routerPanel]">
+  <section class="ml-45" :class="$style.mt82">
+    <div v-for="navItem in sideNavMetaData">
+      <nav-link :uri="navItem.uri">
+        <general-icon :stroke-color="homeActive ? iconColors.active : iconColors.inactive" :icon="navItem.icon" />
+        {{ $t(navItem.title) }}
+        <div v-if="navItem.nestedTab" v-for="nestedItem in navItem.nestedTab">
+          <nav-link :uri="nestedItem.uri">
+            {{ $t(nestedItem.title) }}
+          </nav-link>
+        </div>
+      </nav-link>
+    </div>
+
+    <!-- 
+    <div :class="$style.navItem">
+      <a href="#/home" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.routerLinkActive]: homeActive}]" :id="$vId(this, 'home')">
+        <general-icon :stroke-color="homeActive ? iconColors.active : iconColors.inactive" />
+        {{ $t('components.general.fou_side_navigation.dashboard') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a href="#/promos" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.routerLinkActive]: promotionActive}]" :id="$vId(this, 'promotions')">
+        <general-icon :stroke-color="promotionActive ? iconColors.active : iconColors.inactive" />
+        {{ $t('components.general.fou_side_navigation.promotions') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a href="#/earnings-report" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.routerLinkActive]: earningActive}]" :id="$vId(this, 'sales_report')">
+        <general-icon :stroke-color="earningActive ? iconColors.active : iconColors.inactive" />
+        {{ $t('components.general.fou_side_navigation.earnings_reports') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a class="ml-15 mt-link--black" :class="[$style.navItemLink]" :id="$vId(this, 'payments')">
+        <general-icon :stroke-color="paymentActive ? iconColors.active : iconColors.inactive" />
+        {{ $t('components.general.fou_side_navigation.payments.title') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a href="#/payments" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.navItemLink]: payementsDashboardActive}]" :id="$vId(this, 'payments')">
+        {{ $t('components.general.fou_side_navigation.payments.payments_dashboard') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a href="#/payment-accounts" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.navItemLink]: payementAccountsActive}]" :id="$vId(this, 'payments')">
+        {{ $t('components.general.fou_side_navigation.payments.accounts') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a href="#/agreements" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.routerLinkActive]: aggrementActive}]" :id="$vId(this, 'contracts')">
+        <general-icon :stroke-color="aggrementActive ? iconColors.active : iconColors.inactive" />
+        {{ $t('components.general.fou_side_navigation.agreements') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a class="ml-15 mt-link--black" :class="[$style.navItemLink]">
+        <general-icon :stroke-color="profileActive ? iconColors.active : iconColors.inactive" />
+        {{ $t('components.general.fou_side_navigation.profile.title') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a href="#/foundry-profile" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.navItemLink]: foundryInfoActive}]">
+        {{ $t('components.general.fou_side_navigation.profile.foundry_info') }}
+      </a>
+    </div>
+    <div class="mt-15" :class="$style.navItem">
+      <a href="#/foundry-profile" class="ml-15 mt-link--black"
+        :class="[$style.navItemLink, {[$style.navItemLink]: userPermissionActive}]">
+        {{ $t('components.general.fou_side_navigation.profile.user_permissions') }}
+      </a>
+    </div> -->
+  </section>
+</div>

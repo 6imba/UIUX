@@ -1,0 +1,3 @@
+1. when to use semantic elements like: <header>, <footer>, <section>, <aside>
+2. <header> or <div id="header">, <div id="wrapper">, <div id="containner">, <div id="menu">, <div id="content">, <div id="sidebar">, <div id="footer">
+3. Flex box vs grid

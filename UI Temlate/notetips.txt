@@ -1,0 +1,7 @@
+html ==> align/text-align 
+css  ==> text-align
+html ==> bgcolor 
+css  ==> background-color
+no css inside table tag no class 
+center ok but not middle of the page
+use of ; in java script

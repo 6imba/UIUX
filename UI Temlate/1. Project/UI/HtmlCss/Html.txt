@@ -1,0 +1,8 @@
+https://www.geeksforgeeks.org/container-and-empty-tags-in-html/
+
+Essential Tags: Following tags are used to create the structure of the webpage:
+	<html>….</html>: This marks the beginning and ending of the webpage also it tells that the document is an HTML document. This contains all other tags in between these tags which are considered for making a webpage.
+	<head>…</head>: This tag is used to define the head part of the document which contains the information related to the webpage.
+	<title>…</title>: This tag stores the description of the web page, whatever given in these tags appears on the tab name while opened by the browser. It is described in the head tag.
+	<body>….</body>: This tag is used to display all the information or data, i.e, text, images, hyperlinks videos, etc., on the webpage to the user.
+

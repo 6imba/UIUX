@@ -1,0 +1,32 @@
+body{
+
+    background-image:url(samir.jpg),rgba(0,0,0,0.5);
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+div {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(raw.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+h1{
+    color:red;
+    background-color:green;
+    }

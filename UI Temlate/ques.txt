@@ -1,0 +1,6 @@
+
+- get list of all deep level nested element.
+- add click event all deep level nested element.
+
+- recursive function
+- get list of nested element

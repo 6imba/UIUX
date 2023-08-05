@@ -1,0 +1,67 @@
+Properties of CSS: Inline CSS has the highest priority, then comes Internal/Embedded followed by External CSS which has the least priority. Multiple style sheets can be defined on one page. If for an HTML tag, styles are defined in multiple style sheets then the below order will be followed.
+
+<h1 style="color:green;text-align:right;">Finally this is Inline Style Sheet.</h1>
+
+<styel>
+    body{
+	}
+    p, h1, div,{
+	}
+    .class{
+	}
+    #id{
+	}
+    p.class{
+	}
+    *{
+	}
+</style>
+
+<link rel="stylesheet" href="External.css">
+
+inline, internal, external, multiple, multiple-external (cascade piority)
+
+
+html=>
+    attribute=value
+css=>
+    property:value
+
+CSS Selectors
+selector in css <==> element, id, class, element.class,  element.class1  element.class1, universal selector, grouping selector, element element/, 
+
+class="apple ball"
+.apple.ball{}
+
+<p>Copyright: &copy; 2056.</p>
+
+#properties:value
+border:2px slolid black;
+background-color: green;
+color: red;
+padding: 10px; (top right button left)
+margin:10px; (top right button left)
+font-family:"Comic Sans Ms";
+height="300px";
+width="300px"; 25%
+text-align:center;
+overflow:hidden;  
+float:left;
+text-decoration:none;
+element:hover{background-color:red;}
+dropdown menu
+Copyright: &copy;
+clear:both;
+
+
+
+display, float, align, position, 
+
+
+
+
+float vs align vs position
+
+
+
+

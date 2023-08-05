@@ -1,0 +1,19 @@
+1. "People ignore design that igonres people."
+2. Dor Norman father of UX.
+3. UX = User Experience : Make users experience good,comfortable,easy when users use our product.
+4. User Usability| Experience vs User Interface
+5. User Experience (make product(website) easy/comfortable to use| expericence using other same app) vs User Interface (make products(website) design look good/meaningful #no_confusion )
+6. User Experience(Concerned on Products Usage) && User Interface(Concerned on Products Design)
+
+7. Idea -> Research -> Concept -> Design -> Test -> Feedback -> ReProcess
+8. Task UX Designer do?
+	User Research[means UX Designer have to do research on the user for WHOM product is made for. (old, physically_disable, celebraty, sportman, politicians etc)],
+	User Personas,
+	Wireframes [Wire Design(pencil,digital)], 
+	User Testing.
+9. Design must have && Nice to have.
+10. Design Piority
+11. WorkFlow Diagram
+12. Prototype
+13. Tools to design UI/UX: Figma, Adobe Xd, Sketch(mac)
+14. Clickable Prototype.

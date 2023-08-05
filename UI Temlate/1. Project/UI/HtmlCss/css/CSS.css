@@ -1,0 +1,13 @@
+.body{
+    background-color:lime;
+    }
+h1{
+    margin-left:73%;
+    }
+#img{
+    text-align:center; width:45%;/*this is for id use #before id*/
+    }
+p,th{
+    color:red;
+    font-size:15px;
+    }

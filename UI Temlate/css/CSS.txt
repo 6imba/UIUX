@@ -1,0 +1,7 @@
+1. There is currently no way to select the parent of an element in CSS.
+1. The box-sizing property allows us to include the padding and border in an element's total width and height.
+1. The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
+1. box-sizing in textarea.
+1. % vs em vs vh vs px
+1. box-shadow
+1. 
